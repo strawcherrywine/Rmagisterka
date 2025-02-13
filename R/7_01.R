@@ -22,7 +22,7 @@ podsumowanie
 #Utworzenie kolumny na podstawie.. sumy
 suma.dwa.i.trzy <-data$Sepal.Width + data[,3]
 
-#Utworzenie kolumny na podstawie...sumy-jako nora zmienna w ramce data
+#Utworzenie kolumny na podstawie...sumy-jako nowa zmienna w ramce data
 data$nasza.suma <- data$Sepal.Width + data$Petal.Length
 
 #suma 3 kolumn podzielona przez 4
